@@ -14,8 +14,8 @@ const Home = () => {
             <div className='container'>
                 <div className="row d-flex align-items-center m-5">
                     <div className="col mt-5 text-start">
-                        <h1>Come And Get The Best</h1>
-                        <h1> Diaper For your BABY.</h1>
+                        <h1 className='homeheadings'>Come And Get The Best</h1>
+                        <h1 className='homeheadings'> Diaper For your BABY.</h1>
                         <p className='mt-4'>We have got all types of diapers. You can visit our site to get the best diaper suited for your baby with just one click. So <b>Just HURRY</b> and get what you want.</p>
                     </div>
                     <div className="col">
@@ -29,7 +29,7 @@ const Home = () => {
                     reviews.map(review => review.id < 4 && <Review key={review.id} review={review}></Review>)
                 }
             </div>
-            <Link className='btn btn-primary' to='/review'>See All Review</Link>
+            <Link className='btn' to='/reviews'>See All Review</Link>
 
         </div>
     );

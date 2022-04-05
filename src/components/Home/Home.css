@@ -1,7 +1,29 @@
-h1 {
+.homeheadings {
     color: #704f25
 }
 
 p {
     color: grey;
+}
+
+.btn {
+    background-color: #3a2101;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    color: blanchedalmond;
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.review-container {
+
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }
