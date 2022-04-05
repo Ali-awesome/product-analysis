@@ -1,0 +1,12 @@
+.review {
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: azure;
+}
+
+.review p {
+    color: white;
+}
