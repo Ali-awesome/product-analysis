@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            <h2><strong>Some Customer Reviews</strong></h2>
             <div className='review-container'>
                 {
                     reviews.map(review => review.id < 4 && <Review key={review.id} review={review}></Review>)
